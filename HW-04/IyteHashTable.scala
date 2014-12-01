@@ -1,6 +1,6 @@
 class IyteHashTable {
 
-  val size: Int = 1000;
+  val size: Int = 100000;
   val load_factor: Double = 0.7;
   var count: Int = 0;
   var rootNode: TableNode = null;
