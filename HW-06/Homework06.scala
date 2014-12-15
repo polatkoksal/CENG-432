@@ -9,7 +9,7 @@ trait UserManagerTrait {
 
 object UserManager extends UserManagerTrait {
 
-  var users = scala.collection.mutable.HashMap[String, User]()
+  val users = scala.collection.mutable.HashMap[String, User]()
 
   def add(name: String, email: String, grade: Int): Option[User] = {
     var user: User = null
